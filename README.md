@@ -1,5 +1,11 @@
 # kmm-with-composite-build
-This is a KMM project, which includes a composite build. 
+
+This is a KMM project, which includes a library project in subfolder `KMMLibraryProject`.
+`KMMLibraryProject` consists of a single module `kmmlibrarymodule`.
+`KMMLibraryProject` in included into the main project via `includeBuild("KMMLibraryProject")` in `settings.gradle.kts`.
+
+- Branch `main` illustrates how module `shared` tries to depend on `kmmlibrarymodule` but the import can't be resolved.
+- Branch `dependency-in-androidApp-works` shows that module `androidApp` can successfully depend on and use `kmmlibrarymodule`.
 
 ### Troubleshooting: SDK location not found
 

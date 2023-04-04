@@ -40,6 +40,8 @@ android {
 
 dependencies {
     implementation(project(":shared"))
+    implementation("KMMLibraryProject:kmmlibmodule")
+    
     implementation("androidx.compose.ui:ui:1.3.1")
     implementation("androidx.compose.ui:ui-tooling:1.3.1")
     implementation("androidx.compose.ui:ui-tooling-preview:1.3.1")

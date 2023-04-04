@@ -16,3 +16,6 @@ dependencyResolutionManagement {
 rootProject.name = "KMM_Sample_App"
 include(":androidApp")
 include(":shared")
+
+// https://docs.gradle.org/current/userguide/composite_builds.html
+includeBuild("KMMLibraryProject")

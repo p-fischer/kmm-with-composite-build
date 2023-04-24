@@ -18,4 +18,4 @@ include(":androidApp")
 include(":shared")
 
 // https://docs.gradle.org/current/userguide/composite_builds.html
-includeBuild("KMMLibraryProject")
+include(":kmmlibmodule")

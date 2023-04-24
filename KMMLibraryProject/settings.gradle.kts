@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "KMMLibraryProject"
-include(":kmmlibmodule")
